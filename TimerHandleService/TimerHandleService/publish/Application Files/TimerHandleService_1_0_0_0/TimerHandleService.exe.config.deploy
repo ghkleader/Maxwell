@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<configuration>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8"/>
+    </startup>
+  <connectionStrings>
+    <add name="mysqlConn" connectionString="server=123.60.10.157;uid=root;pwd=drlaser20080425;database=dr_build_mes" providerName="System.Data.SqlClient"/>
+  </connectionStrings>
+</configuration>

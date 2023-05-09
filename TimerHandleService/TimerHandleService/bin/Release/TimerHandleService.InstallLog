@@ -1,0 +1,42 @@
+﻿正在安装程序集“E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.InstallLog
+   assemblypath = E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.exe
+正在安装服务 TimerHandleService...
+已成功安装服务 TimerHandleService。
+正在日志 Application 中创建 EventLog 源 TimerHandleService...
+正在提交程序集“E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.InstallLog
+   assemblypath = E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.exe
+正在卸载程序集“E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.InstallLog
+   assemblypath = E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.exe
+正在移除 EventLog 源 TimerHandleService。
+正在从系统中移除服务 TimerHandleService...
+已成功地从系统中移除服务 TimerHandleService。
+正在安装程序集“E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.InstallLog
+   assemblypath = E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.exe
+正在安装服务 TimerHandleService...
+已成功安装服务 TimerHandleService。
+正在日志 Application 中创建 EventLog 源 TimerHandleService...
+正在提交程序集“E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.InstallLog
+   assemblypath = E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.exe
+正在卸载程序集“E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.InstallLog
+   assemblypath = E:\DRLaseFiles\本地SVN\VueProject\中控系统\本地\TimerHandleService\TimerHandleService\bin\Release\TimerHandleService.exe
+正在移除 EventLog 源 TimerHandleService。
+正在从系统中移除服务 TimerHandleService...
+已成功地从系统中移除服务 TimerHandleService。

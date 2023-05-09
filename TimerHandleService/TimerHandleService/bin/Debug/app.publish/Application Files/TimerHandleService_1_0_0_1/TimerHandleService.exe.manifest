@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TimerHandleService.exe" version="1.0.0.1" publicKeyToken="8e2918035a6df29f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TimerHandleService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TimerHandleService.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="1439744">
+      <assemblyIdentity name="MySql.Data" version="8.0.31.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>klFc9LGUGIzGtuU9GUzqlBisJi3IRINpcoEUOqKP6ws=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SqlSugar.dll" size="2258944">
+      <assemblyIdentity name="SqlSugar" version="5.1.4.66" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9rwuRNEAV7ynNRehxK+KOJCCyVdX6dnZQvKgqu+HZ6M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TimerHandleService.exe" size="26112">
+      <assemblyIdentity name="TimerHandleService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Evp/6bOR8fkeRjsQjf8RVHn8AU9EbiT2wd0bsro3I2Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZstdNet.dll" size="28672">
+      <assemblyIdentity name="ZstdNet" version="1.4.5.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5rrHKgOqMPqN1beBJzpCDZqXH9jaD2Uf7MolVellyt4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TimerHandleService.exe.config" size="856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>llivc4uHB+dbheWQGudm4+qHDCqiQkTi+6rOwwwpjX0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-1O7H9U5\dr" issuerKeyHash="6bee23b7fae5c9e0e249662d40a3f0491f0f6330" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yqRiB+xi3IUu6Gp6/e1YvOt9aNSmSNn6uWBMPEldpKc=</DigestValue></Reference></SignedInfo><SignatureValue>YgrlRK2CCLMMSk9zDFMe5a5JaXrQvBGvJ5dnZZw48qIhX6PH9Ko3dZdKKNDjeCLBMhz90TdJkNz9BgDrTgh+c1VVJvm1Ss/WZcgpC6Q0ZxUuEqwWjWAczWJXP9diKGDsYSADwZo6IHFLnut0PLQ6MKd2YjjIeSZciJTOpTe2+7o=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>36ZbfAdfaIxHSBv9hGUwl/mQjrPYPOZSiw9LZd5RErG0bX0nvWv/6a0l+j6JxdtK8wWGZvj8YAERRG0T+mTQkHvUxXcNMJ9J5I0Tdzn14V5au60juqX5wi/ycTYDh/mVzmYR7OZBz3LwnpS3Qf4GJj3RZpgGpZCneebRKYGr2Ik=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a7a45d493c4c60b9fad948a6d4687debbc58edfd7a6ae82e85dc62ec0762a4ca" Description="" Url=""><as:assemblyIdentity name="TimerHandleService.exe" version="1.0.0.1" publicKeyToken="8e2918035a6df29f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-1O7H9U5\dr</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>je8ZfLBfEUQKQll9sT+NzjWLUuqMWnYvSJ5t7I3sIx0=</DigestValue></Reference></SignedInfo><SignatureValue>ZnzDUyPzJzmL0ck2rd2IGZI0isYqUgPdOLgDTZertZ9vvR3sJ9wzpRa1S/zMH93SlhlgCiwaNiNEmup6EdhrmJNTBJ4uOKu+G4jLg0U9fai4iW+3mhT78aK7/XI9mt0Kr9bUYsXtQIQB4bsIGrk2ai2hfWmRvZxgWZ+AHSVs3t4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>36ZbfAdfaIxHSBv9hGUwl/mQjrPYPOZSiw9LZd5RErG0bX0nvWv/6a0l+j6JxdtK8wWGZvj8YAERRG0T+mTQkHvUxXcNMJ9J5I0Tdzn14V5au60juqX5wi/ycTYDh/mVzmYR7OZBz3LwnpS3Qf4GJj3RZpgGpZCneebRKYGr2Ik=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQEfFdIpD1rYJKen+TlCNsEzANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtADEATwA3AEgAOQBVADUAXABkAHIwHhcNMjMwMjIxMDcyNjQ2WhcNMjQwMjIxMTMyNjQ2WjAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtADEATwA3AEgAOQBVADUAXABkAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN+mW3wHX2iMR0gb/YRlMJf5kI6z2DzmUosPS2XeURKxtG19J71r/+mtJfo+icXbSvMFhmb4/GABEURtE/pk0JB71MV3DTCfSeSNE3c59eFeWrutI7ql+cIv8nE2A4f5lc5mEezmQc9y8J6Ut0H+BiY90WaYBqWQp3nm0SmBq9iJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAezn+fbVg/75n0EjwZ06KazDHOOL53DKhZ4ZVWraViLfKH7WbPStTgGSpabJ+Inb4XLc9Sf+FOLo506b9qOuP73GlDTPrZaLAaXBLW1PNJI5fnUqYnFDBvBisRAEXJeQq5hMBOFqzr35VXkG2IDwx+/bd2iKJZzOxBQuZeYO0uOM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
